@@ -21,7 +21,6 @@ find_package(pluginlib REQUIRED)
 
 find_package(Franka REQUIRED)
 
-
 add_library(franka_hardware
         SHARED
         src/franka_hardware_interface.cpp
